@@ -1,0 +1,32 @@
+/* .box{ */
+    /* width: 100px;
+    height: 100px;
+    background-color: orange; */
+    /* rotate: 50deg; */
+    /* transform: translate(40px,20px); */
+    /* transform: scale(-1); */
+    /* transition: background-color 4s,width 4s; */
+    /* transition: transform 0.5s; */
+/* } */
+/* .box:hover{ */
+    /* background-color: blue; */
+    /* width: 300px; */
+    /* transform: scale(1.2); */
+/* } */
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    animation: bounce 3s infinite;
+    position: relative;
+}
+@keyframes bounce { 
+    0%{top: 200px;left: 10px;}
+    20%{top: 0px;left: 100px;}
+    40%{top: 100%;left: 150px;}
+    60%{top: 0px;left: 200px;}
+    100%{top: 200px;left: 300px;}
+}
+
+
